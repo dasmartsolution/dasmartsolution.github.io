@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DA Smart Solution — Independent Mobile App Developer</title>
+<meta name="description" content="DA Smart Solution is an independent mobile app studio in Vietnam building free health and lifestyle apps for Android and iOS.">
+<style>
+  :root { --ink:#1a1a1a; --muted:#5c5c5c; --line:#e3e3e3; --accent:#1a73e8; --bg:#fff; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  .wrap { max-width:800px; margin:0 auto; padding:0 24px; }
+  header { border-bottom:1px solid var(--line); padding:56px 0 40px; }
+  header h1 { margin:0 0 8px; font-size:32px; letter-spacing:-.3px; }
+  header p { margin:0; color:var(--muted); font-size:18px; }
+  section { padding:40px 0; border-bottom:1px solid var(--line); }
+  section:last-of-type { border-bottom:0; }
+  h2 { font-size:22px; margin:0 0 16px; letter-spacing:-.2px; }
+  h3 { font-size:17px; margin:24px 0 6px; }
+  p { margin:0 0 14px; }
+  ul { margin:0 0 14px; padding-left:22px; }
+  li { margin-bottom:8px; }
+  a { color:var(--accent); }
+  .card {
+    border:1px solid var(--line); border-radius:10px;
+    padding:20px; margin-top:16px; background:#fafafa;
+  }
+  .card h3 { margin-top:0; }
+  code {
+    background:#f1f3f4; padding:2px 6px; border-radius:4px;
+    font-size:14px; font-family:ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  footer { padding:32px 0 64px; color:var(--muted); font-size:14px; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8eaed; --muted:#9aa0a6; --line:#3c4043; --bg:#1f2023; }
+    .card { background:#26282c; }
+    code { background:#2d2f34; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>DA Smart Solution</h1>
+    <p>Independent mobile app developer — Viet Nam</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>DA Smart Solution is an independent mobile app development studio based in Viet Nam,
+    run by Nguyen Van Duy. We build, publish, and market our own health and lifestyle mobile
+    applications for Android and iOS.</p>
+    <p>We develop and advertise <strong>only our own apps</strong>. We do not provide services
+    to external clients and we do not operate as an advertising agency.</p>
+  </section>
+
+  <section>
+    <h2>Our Apps</h2>
+    <div class="card">
+      <h3>Bodyly — BMI &amp; Weight Diary</h3>
+      <p>A free health tracking app that lets users calculate their BMI, log body weight and
+      body measurements, track daily water intake, and view their progress over time with charts.</p>
+      <p><a href="https://apps.apple.com/us/app/bodyly-bmi-weight-diary/id6453560070">App Store</a>
+      &nbsp;·&nbsp;
+      <a href="https://play.google.com/store/apps/details?id=com.bmicalculator.weightloss.weightcalculator">Google Play</a></p>
+    </div>
+    <div class="card">
+      <h3>Swift Note AI — Scan &amp; Summary</h3>
+      <p>An AI note-taking app that turns photos, PDFs and voice recordings into structured,
+      searchable notes and summaries.</p>
+      <p><a href="https://apps.apple.com/us/app/swift-note-ai-scan-summary/id6744578026">App Store</a>
+      &nbsp;·&nbsp;
+      <a href="https://play.google.com/store/apps/details?id=com.dass.note.ai.taker">Google Play</a></p>
+    </div>
+    <div class="card">
+      <h3>Talent Q Speak — IELTS Speaking</h3>
+      <p>An English learning app that helps users practise IELTS Speaking with AI-powered
+      assessment and feedback.</p>
+      <p><a href="https://apps.apple.com/us/app/talent-q-speak-ielts-speaking/id6759491294">App Store</a>
+      &nbsp;·&nbsp;
+      <a href="https://play.google.com/store/apps/details?id=com.talentq.englishspeaking">Google Play</a></p>
+    </div>
+    <p>All of our published apps are listed on our developer pages:
+    <a href="https://apps.apple.com/us/developer/nguyen-van-duy/id1693414141">App Store</a> and
+    <a href="https://play.google.com/store/apps/developer?id=DA+Smart+Solution">Google Play</a>.</p>
+  </section>
+
+  <section>
+    <h2>Our Business Model</h2>
+    <p>Our apps are free to download. We generate revenue through:</p>
+    <ul>
+      <li>In-app advertising (Google AdMob)</li>
+      <li>In-app purchases and premium subscriptions</li>
+    </ul>
+    <p>To grow our user base, we run Google Ads App campaigns that promote our own apps on
+    Google Play, Google Search, YouTube, and the Google Display Network.</p>
+  </section>
+
+  <section>
+    <h2>How We Use the Google Ads API</h2>
+    <p>We use the Google Ads API to build an <strong>internal command-line tool</strong> that
+    manages the Google Ads App campaigns promoting our own apps. The tool is used only by our
+    own team. It is <strong>not sold, distributed, or made available</strong> to any external
+    client or to the general public.</p>
+
+    <h3>Capabilities</h3>
+    <ul>
+      <li><strong>Campaign Creation</strong> — create App campaigns for our apps, including
+      campaign budgets, target CPI bidding, and geographic and language targeting.</li>
+      <li><strong>Campaign Management</strong> — update daily budgets and target CPI bids,
+      pause and resume campaigns, and upload creative assets (headlines, descriptions,
+      images, videos).</li>
+      <li><strong>Reporting</strong> — retrieve performance metrics such as impressions,
+      clicks, cost, installs, and in-app conversions, so we can monitor results and adjust
+      our spend.</li>
+    </ul>
+
+    <h3>API services used</h3>
+    <p><code>CampaignBudgetService</code>, <code>CampaignService</code>,
+    <code>AdGroupService</code>, <code>AdGroupAdService</code>, <code>AssetService</code>,
+    <code>CampaignCriterionService</code>, <code>GoogleAdsService</code>.</p>
+
+    <h3>Data handling</h3>
+    <p>The tool reads and writes <strong>only our own Google Ads account data</strong>. It does
+    not collect or process personal data of any end user, and no data is shared with third
+    parties.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Nguyen Van Duy — DA Smart Solution<br>
+      Email: <a href="mailto:nguyenvanduy.dev@gmail.com">nguyenvanduy.dev@gmail.com</a><br>
+      Support: <a href="mailto:smartsolution.da@gmail.com">smartsolution.da@gmail.com</a><br>
+      Location: Viet Nam
+    </p>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </section>
+
+  <footer>
+    &copy; 2026 DA Smart Solution — Independent mobile app developer, Viet Nam.
+  </footer>
+
+</div>
+</body>
+</html>
